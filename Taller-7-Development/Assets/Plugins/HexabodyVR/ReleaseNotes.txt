@@ -1,0 +1,42 @@
+Version 1.23
+Flattened Camera X rotation before rotating torso in FaceDirection method
+Capped locoball angular velocity when not grounded
+
+Version 1.22
+
+Added CalibrateHeightOnStart option and set to default to false. 
+
+
+Version 1.21
+Fixes:
+The FenderSphere mesh object used for visualizing the body had it's sphere collider left on by accident. The player v3 prefab
+has been updated with it removed, if you unpacked your prefab make sure to remove it as it would affect friction when up against something.
+
+Version 1.2
+
+Fixes:
+Changed the steamvr bindings manifest key to prevent conflicts with the one from hurricanevr
+
+Added MoveToPosition which takes the position that the bottom of the locosphere will land and moves all of the 
+	necessary rigidbodies maintaining their offset from the locoball
+	
+Added FaceDirection which takes a vector and rotates the torso so that the camera faces this direction
+
+HexaBodyPlayer3:
+Add LeftShoulder and RightShoulder transform fields
+Add LeftHandRigidbody and RightHandRigidbody fields
+Added DefaultArmLength field and SetArmLength method that will create joint limits from the shoulder to the hand
+MaxDistance on HexaHands should be updated when calibrating arm length on the hexabody
+v3 prefabs updated with new required fields
+
+HexaHands:
+Add Shoulder transform, if provided will be the anchor for limiting the hand distance by "MaxDistance"
+
+Added steamvr readme for setup
+
+
+Version 1.1
+
+Added SteamVR bindings integration package and updated the input collector to use SteamVR Inputs 
+Install SteamVR from the asset store, unload the package, and Save And Generate the action classes when prompted
+Add HEXA_STEAMVR scripting define symbol to make use of the bindings

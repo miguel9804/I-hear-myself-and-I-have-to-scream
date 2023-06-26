@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Boundaries
+  - Esfinge
+  - Esfinge1
+  - Esfinge2
+  - Esfinge3
+  - Esfinge4
+  - Esfinge5
+  - SalaSegura
+  - Fantasma
+  - Guia
+  - Enemy
+  - Scene
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - Character
+  - Enviroment
+  - Restricted
+  - Player
+  - Grabbable
+  - CameraEffects
+  - Sensor
+  - SafeZone
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0

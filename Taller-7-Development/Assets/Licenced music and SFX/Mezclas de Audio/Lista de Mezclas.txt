@@ -1,0 +1,12 @@
+[Evento aterrador]
+Suena un efecto de sonido estridente seguido de un tono.
+Se escucha la respiracion agitada del jugador.
+
+[Gramafono Encendido]
+Encernder gramafono
+
+[Gramafono tono]
+Ruido blanco provocado por el gramafono
+
+[Suspenso con latidos]
+Latidos del corazon acompañados de ruido de fondo
